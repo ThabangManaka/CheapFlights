@@ -42,9 +42,9 @@ h3 {
 }
 #home-heading h3 {
    
-    font-size: 55px;
-    font-weight:700;
-    margin:  20px 0 20px 0;
+font-size: 55px;
+    font-weight: 700;
+    margin: 46px 0 36px 0;
     text-transform: uppercase;
     
 }
@@ -65,4 +65,117 @@ h3 {
     background-color: #fff;
     
     
+}
+.box-form {
+
+    margin: 50px 43px 50px 43px;
+}
+/*=====================================================
+  Input Box
+=====================================================*/
+
+.col-auto input {
+    padding-left: 2px;
+    height: 51px;
+    position: relative;
+    border-color: #191c24;
+}
+.col-auto input[type=text]{
+ padding-left: 36px;
+   font-size: 12px;
+    font-weight: 600!important;
+    font-family: "Gibson SemiBold",Tahoma,Helvetica,sans-serif!important;
+}
+form {
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left:  12px;
+}
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+      margin-left: 149px;
+}
+.dropdown {
+  height: 38px;
+   margin-bottom: 18px;
+
+}
+.dropdown show {
+   height: 51px;
+}
+.dropdown a{
+     color:#191c24;
+ height: 48px;
+ padding-top: 10px;
+ background-color: #fff;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+  color:#191c24;
+    background-color: #fff;
+    border-color:#191c24;
+    
+}
+
+.show>.btn-secondary.dropdown-toggle {
+   color:#191c24;
+    background-color: #fff;
+    border-color: #4e555b;
+   height: 48px;
+   padding-top: 10px;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #fff;
+    border-color: #545b62;
+    height: 48px;
+}
+.form-control {
+
+  color:#191c24;
+ }
+ .btn-primary {
+
+    background-color:#191c24 ;
+    color: #fff ;
+    font-size: 1.3rem;
+        width: 120px;
+     
+}
+.btn-primary:hover {
+    color: #191c24 ;
+     background-color: #fff;
+    border-color: #191c24 ;
+}
+.content-box  {
+    margin: 46px 0 36px 0;
+}
+
+.content-box  h4 {
+  font-size: 16px;
+}
+.row {
+
+margin-top: 45px;
+    margin-left: 72px;
+    margin-right: 63px;
+    margin-bottom: 20px;
+    padding-top: 16px;
+    padding-left: 12px;
+
+ }
+ .destination {
+   margin-top: 12px;
+   margin-left: 12px;
+ }
+ .destination h2 {
+   font-size: 16px;
+  font-weight: 700;
+ }
+.img-wrapper {
+  
 }

@@ -178,3 +178,23 @@ margin-top: 45px;
    font-size: 16px;
   font-weight: 700;
  }
+.popular_destination {
+   margin-top:  40px;
+  margin-bottom: 20px;
+}
+.col-subheader {
+  font-weight: 500;
+}
+.dynamic-links{
+
+}
+.popular-list {
+list-style: none;
+}
+.about {
+  margin-top: 40px;
+    margin-bottom: 20px;
+}
+.col-subheading {
+ font-weight: 500;
+}

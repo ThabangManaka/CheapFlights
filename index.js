@@ -72,22 +72,27 @@ appDiv.innerHTML = ` <!-- Home -->
 <div class="row">
   <div class="col-6 col-md-4">
   <div class="img-wrapper">
-   <img src="https://cdn.filestackcontent.com/vtrIjdQ9R6exbmk2SaTq" class="img-responsive" alt="team-member" width="350" height="150">
+   <img src="https://cdn.filestackcontent.com/vtrIjdQ9R6exbmk2SaTq" class="img-responsive" alt="team-member" width="370" height="150">
   </div>
      <div class="destination text-center" >
        <h2>Cape Town <span>Flight from<br>R1 749<h2>
      </div>
   </div>
   <div class="col-6 col-md-4"><div class="img-wrapper">
-    <img src="https://www.seabourn.com/content/dam/sbn/inventory-assets/ports/DUR/Durban-South-Africa.jpg.image.750.563.low.jpg" class="img-responsive" alt="team-member" width="350" height="150">
+    <img src="https://www.seabourn.com/content/dam/sbn/inventory-assets/ports/DUR/Durban-South-Africa.jpg.image.750.563.low.jpg" class="img-responsive" alt="team-member" width="370" height="150">
   </div> 
-
+  <div class="destination text-center" >
+       <h2>Durban <span>Flight from<br>R1 001<h2>
+     </div>
 </div>
   <div class="col-6 col-md-4">
   <div class="img-wrapper">
-    <img src="https://media.gettyimages.com/photos/london-big-ben-and-traffic-on-westminster-bridge-picture-id174726708?s=612x612" class="img-responsive" alt="team-member" width="350" height="150">
+    <img src="https://media.gettyimages.com/photos/london-big-ben-and-traffic-on-westminster-bridge-picture-id174726708?s=612x612" class="img-responsive" alt="team-member" width="370" height="150">
     
   </div>
+    <div class="destination text-center" >
+       <h2>London <span>Flight from<br>R9 258<h2>
+     </div>
 </div>
   </section>
   </body>

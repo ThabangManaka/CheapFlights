@@ -13,7 +13,34 @@ appDiv.innerHTML = ` <!-- Home -->
 
 <body>
 
+
+
   <section>
+
+  <header>
+<nav class="navbar flight-top-nav navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
+   <div class="nav-header">
+
+
+  <a class="navbar-brand" href="#">FLY CHEAP</a>
+   </div>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Flights<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Hotels</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+   
+    </ul>
+  </div>
+</nav>
+ </header>
+
     <div id="home-cover">
       <div id="home-content-box">
         <div id="home-content-box-inner"  class="text-center">
@@ -375,5 +402,14 @@ appDiv.innerHTML = ` <!-- Home -->
                            </div>
      </div>
   <section>
+
+  <footer class="my-footer">
+             <div class="col  text-center">
+<a href="/privacy" target="_self" data-test-footer-privacy-link="">Privacy</a>
+<a href="/terms-of-use" target="_self" data-test-footer-terms-and-conditions-link="">Terms &amp; Conditions</a>
+<span class="terms">©2020 Cheapflights</span>
+</div>
+   </footer>
+
   </body>
   </html>`;

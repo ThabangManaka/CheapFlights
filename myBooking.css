@@ -14,6 +14,37 @@ h1,h2 {
 html,body {
 height: 100%;
 }
+
+
+/*=====================================================
+       Navbar
+=====================================================*/
+.navbar {
+ 
+}
+.flight-top-nav {
+  background: rgba(0,0,0,0.7);
+  padding-left: 25px;
+    padding-right: 25px;
+
+}
+  .collapse {
+
+  }
+  .nav-header {
+    margin-left: 12px;
+  }
+  .nav-header a {
+   font-weight: 400;
+  }
+
+  .navbar-nav{
+
+     margin-left: 800px;
+  }
+    .navbar-nav li {
+
+    }
 /*=====================================================
             Home
 =====================================================*/
@@ -197,4 +228,20 @@ list-style: none;
 }
 .col-subheading {
  font-weight: 500;
+}
+footer {
+   background-color:  #191c24;
+}
+.my-footer{
+  background-color: #191c24!important;
+}
+.col  {
+  text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ color : #fff;
+}
+.col  a{
+   margin-top:80px;
+ margin-bottom: 40px;
 }

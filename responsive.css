@@ -1,0 +1,300 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+/*=====================================================
+           Large Device
+=====================================================*/
+@media(min-width: 1200px) {
+  #home-heading h3 {
+    color: blue;
+  }
+
+  .row {
+        margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .img-wrapper img {
+     width: 355px;
+  }
+.destination {
+    background: #fff!important;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    padding-left: 50px;
+}
+
+.dropdown {
+  height: 38px;
+   margin-bottom: 18px;
+
+}
+.dropdown show {
+   height: 51px;
+}
+.dropdown a{
+     color:#191c24;
+ height: 48px;
+ padding-top: 10px;
+ background-color: #fff;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+  color:#191c24;
+    background-color: #fff;
+    border-color:#191c24;
+    
+}
+
+.show>.btn-secondary.dropdown-toggle {
+   color:#191c24;
+    background-color: #fff;
+    border-color: #4e555b;
+   height: 48px;
+   padding-top: 10px;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #fff;
+    border-color: #545b62;
+    height: 48px;
+}
+
+.btn-primary {
+
+    background-color:#191c24 ;
+    color: #fff ;
+    font-size: 1.3rem;
+        width: 120px;
+     
+}
+.btn-primary:hover {
+    color: #191c24 ;
+     background-color: #fff;
+    border-color: #191c24 ;
+}
+
+.btn-general {
+
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.btn-white {
+   border-color:#191c24 ;
+
+}
+.btn-white:hover, .btn-white:focus{
+    background-color: #fff;
+    
+    
+}
+}
+
+/*=====================================================
+          Medium Device
+=====================================================*/
+@media(min-width: 992px) and (max-width: 1199px) {
+
+   #home-heading h3 {
+    color: yellow;
+  }
+  .navbar-collapse {
+     margin-left: -180px;
+}
+   
+  .row {
+        margin-right: 25px;
+    margin-left: 25px;
+  }
+  .img-wrapper img {
+     width: 340px;
+  }
+  .destination {
+    background: #fff!important;
+}
+.navbar-nav{
+  margin-right: -180px;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    padding-left: 20px;
+}
+.dropdown {
+  height: 38px;
+   margin-bottom: 18px;
+
+}
+.dropdown show {
+   height: 51px;
+}
+.dropdown a{
+     color:#191c24;
+ height: 48px;
+ padding-top: 10px;
+ background-color: #fff;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+  color:#191c24;
+    background-color: #fff;
+    border-color:#191c24;
+    
+}
+
+.show>.btn-secondary.dropdown-toggle {
+   color:#191c24;
+    background-color: #fff;
+    border-color: #4e555b;
+   height: 48px;
+   padding-top: 10px;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #fff;
+    border-color: #545b62;
+    height: 48px;
+}
+
+.btn-primary {
+
+    background-color:#191c24 ;
+    color: #fff ;
+    font-size: 1.3rem;
+        width: 120px;
+     
+}
+.btn-primary:hover {
+    color: #191c24 ;
+     background-color: #fff;
+    border-color: #191c24 ;
+}
+
+.btn-general {
+
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.btn-white {
+   border-color:#191c24 ;
+
+}
+.btn-white:hover, .btn-white:focus{
+    background-color: #fff;
+    
+    
+}
+}
+/* =====================================================
+       Small Device
+=====================================================*/
+
+
+@media(min-width: 768px) and (max-width: 991px) {
+  #home-heading h3 {
+    color:green;
+  }
+
+
+.navbar-nav{
+  margin-right: -180px;
+}
+
+.dropdown {
+  height: 38px;
+   margin-bottom: 18px;
+
+}
+.dropdown show {
+   height: 51px;
+}
+.dropdown a{
+     color:#191c24;
+ height: 48px;
+ padding-top: 10px;
+ background-color: #fff;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+  color:#191c24;
+    background-color: #fff;
+    border-color:#191c24;
+    
+}
+  .destination {
+    background: #fff!important;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+   color:#191c24;
+    background-color: #fff;
+    border-color: #4e555b;
+   height: 48px;
+   padding-top: 10px;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #fff;
+    border-color: #545b62;
+    height: 48px;
+}
+
+.btn-primary {
+
+    background-color:#191c24 ;
+    color: #fff ;
+    font-size: 1.3rem;
+        width: 120px;
+     
+}
+.btn-primary:hover {
+    color: #191c24 ;
+     background-color: #fff;
+    border-color: #191c24 ;
+}
+
+.btn-general {
+
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.btn-white {
+   border-color:#191c24 ;
+
+}
+.btn-white:hover, .btn-white:focus{
+    background-color: #fff;
+    
+    
+}
+}
+
+@media(max-width: 320px) {
+
+ #home-heading h3 {
+    color:purple;
+  padding-right: 140px;
+    font-size: 25px;
+  }
+
+  #home-btn {
+    margin-right: 125px;
+  }
+
+}
